@@ -35,11 +35,11 @@ EXCEL_DETAILS_COL = 'V'     # Найденный адрес
 
 # === ПОРОГИ СОПОСТАВЛЕНИЯ ===
 # Минимальное сходство для точного совпадения
-SETTLEMENT_MATCH_THRESHOLD = 0.9  # Город/село
-STREET_MATCH_THRESHOLD = 0.9      # Улица
+SETTLEMENT_MATCH_THRESHOLD = 0.85  # Город/село
+STREET_MATCH_THRESHOLD = 0.8      # Улица
 
 # Минимальное сходство для частичного совпадения  
-PARTIAL_MATCH_THRESHOLD = 0.4
+PARTIAL_MATCH_THRESHOLD = 0.35
 
 # Веса для расчёта общего сходства
 STREET_WEIGHT = 0.7  # Вес улицы

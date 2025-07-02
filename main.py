@@ -13,7 +13,6 @@ logger = setup_logger()
 def main():
     """Основная функция приложения"""
     try:
-        logger.info("=== ЗАПУСК ПРОВЕРКИ АДРЕСОВ QAZPOST ===")
         
         # 1. Парсинг HTML файлов
         logger.info("Этап 1: Парсинг HTML файлов...")
